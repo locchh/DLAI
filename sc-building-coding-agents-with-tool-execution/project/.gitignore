@@ -1,0 +1,28 @@
+# Development files
+project_untracked.ipynb
+e2b_course*/
+TEST/
+.claude/
+
+# Markdown files (except docs.md)
+*.md
+!docs.md
+
+# Environment and secrets
+.env
+
+# Student-generated files (created during notebook usage)
+agent_files/
+visualizations/
+charts/
+webapp/
+games/
+outputs/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# E2B cache
+sbx.cache
